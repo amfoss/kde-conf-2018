@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Debutsav'14</title>
+
+    <!-- Favicons -->
+    <link rel="favicon_deb" sizes="144x144" href="assets/ico/favicon_deb.png">
+    <link rel="shortcut icon" href="assets/ico/favicon_deb.png">
+    <link rel="image_src" href="images/loader.jpg" />
+
+    <!-- CSS Global -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet">
+    <link href="assets/plugins/owlcarousel2/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/plugins/owlcarousel2/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/plugins/prettyphoto/css/prettyPhoto.css" rel="stylesheet">
+    <link href="assets/plugins/animate/animate.min.css" rel="stylesheet">
+    <link href="assets/plugins/countdown/jquery.countdown.css" rel="stylesheet">
+
+    <link href="assets/css/theme.css" rel="stylesheet">
+    <link href="assets/css/theme-red-1.css" rel="stylesheet" id="theme-config-link">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <script src="http://openlayers.org/api/OpenLayers.js"></script>
+    <script type="text/javascript">
+        var lat=9.093440;
+        var lon=76.48919;
+        var zoom=17;
+        var map; 
+        function init(){
+            map = new OpenLayers.Map ("map", {
+                controls:[
+                new OpenLayers.Control.Navigation(),
+                new OpenLayers.Control.PanZoomBar(),
+                new OpenLayers.Control.Attribution()],
+                maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34),
+                maxResolution: 156543.0399,
+                numZoomLevels: 19,
+                units: 'm',
+                projection: new OpenLayers.Projection("EPSG:900913"),
+                displayProjection: new OpenLayers.Projection("EPSG:4326")
+            } );
+            map.addLayer(new OpenLayers.Layer.OSM());
+            var lonLat = new OpenLayers.LonLat(lon, lat).transform(new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913"));
+            map.setCenter (lonLat, zoom);
+            //Initialise the vector layer using OpenLayers.Format.OSM
+            var layer = new OpenLayers.Layer.Vector("Polygon", {
+                strategies: [new OpenLayers.Strategy.Fixed()],
+                protocol: new OpenLayers.Protocol.HTTP({
+                    format: new OpenLayers.Format.OSM()
+                }),
+                projection: new OpenLayers.Projection("EPSG:4326")
+            });
+            map.addLayers([layer]); 
+        }
+    </script>
+    
+    <style>
+      .map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/iesupport/html5shiv.js"></script>
+    <script src="assets/plugins/iesupport/respond.min.js"></script>
+    <![endif]-->
+    
+    <!--Google Analytics track code-->
+     <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-55421112-1', 'auto');
+	ga('send', 'pageview');
+
+    </script>
+</head>
+<body id="home" class="wide body-light" onload="init()">
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">
+        <img alt="Welcome to Debustav'14. Please wait while the site gets loaded." src="images/loader.jpg"> </img>
+        <div class="spinner"> </div>
+    </div>
+</div>
+
+<!-- Wrap all content -->
+<div class="wrapper">
+
+    <!-- HEADER -->
+    <header class="header fixed">
+        <div class="container">
+            <div class="header-wrapper clearfix">
+
+            <!-- Logo -->
+            <div class="logo">
+                <a href="#home" class="scroll-to">
+                    <span class="fa-stack">
+                        <i class="fa logo-hex fa-stack-2x"></i>
+                        <i class="fa logo-fa fa-map-marker fa-stack-1x"></i>
+                    </span>
+                    Debutsav'14
+                </a>
+            </div>
+            <!-- /Logo -->
+
+            <!-- Navigation -->
+            <div id="mobile-menu"></div>
+            <nav class="navigation closed clearfix">
+                <a href="#" class="menu-toggle btn"><i class="fa fa-bars"></i></a>
+                <ul class="sf-menu nav">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#sponsors">Sponsors</a></li>
+                    <li><a href="#speakers">Speakers</a></li>
+                    <li><a href="registerdelegate.html#delegate">Register</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#contact">Contact-Us</a></li>
+                </ul>
+            </nav>
+            <!-- /Navigation -->
+
+            </div>
+        </div>
+    </header>
+    <!-- /HEADER -->
+
+    <!-- Content area -->
+    <div class="content-area">
+
+        <div id="main">
+        <!-- SLIDER -->
+        <section class="page-section no-padding background-img-slider">
+            <div class="container">
+            <div id="main-slider">
+
+                <!-- Slide -->
+                <div class="item page text-center">
+                    
+                    <div class="caption">
+                        <div class="container">
+                            <div class="div-table">
+                                <div class="div-cell">
+                                    <h2 class="caption-title" data-animation="fadeInDown" data-animation-delay="100"><span>October 17-18, 2014</span></h2>
+                                    <h3 class="caption-subtitle" data-animation="fadeInUp" data-animation-delay="300"><i class="fa fa-angle-left"></i> Debutsav'14 in Amritapuri <i class="fa fa-angle-right"></i></h3>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+
+            <!-- Event description -->
+            <div class="event-description">
+                <div class="container">
+                <div class="row">
+                <div class="event-background">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="media">
+                                            <span class="pull-left">
+                                                <i class="fa fa-calendar fa-2x"></i>
+                                            </span>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Date</h4>
+                                        <span>October 17- 18, 2014</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="media">
+                                            <span class="pull-left">
+                                                <i class="fa fa-map-marker fa-2x"></i>
+                                            </span>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Location</h4>
+                                        <span>Amrita Vishwa Vidyapeetham, Kollam, Kerala, IN</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-2">
+                                <div class="media">
+                                            <span class="pull-left">
+                                                <i class="fa fa-group fa-2x media-object"></i>
+                                            </span>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Delegates</h4>
+                                        <span><a href="#register">Grab Tickets</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="media">
+                                            <span class="pull-left">
+                                                <i class="fa fa-microphone fa-2x"></i>
+                                            </span>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Speakers</h4>
+                                        <span><a href="#"> CFP Closed</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+            <!-- /Event description -->
+
+
+        </section>
+        <!-- /SLIDER -->
+        </div>
+
+        <!-- PAGE ABOUT -->
+        <section class="page-section" id="about">
+            <div class="container">
+                <h1 class="section-title">
+                    <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-star fa-stack-1x"></i></span></span>
+                    <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Debutsav'14 </span>
+                </h1>
+                <div class="row">
+                    <div class="col-lg-8" style="padding-right: 40px">
+                        <p data-animation="fadeInUp" data-animation-delay="300" style="text-align: justify;" >Debutsav is a blend, a word-play on two words from two different languages. The first part of the word Deb refers to Debian, an Operating System, a volunteer project, a project without which none of the deb-based distributions(i.e distributions which have binary packages in the form of .deb ) would exist. It is a distribution which is famed for its stability as well as its boringness and yet boasts of some of the widest array of software in its archive serving almost all the Computer system hardware architectures known to mankind.</p>
+                        <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner"><strong>Why Attend ?</strong></span>
+
+                        <p style="text-align: justify;">
+                            Debian is a cool operating system comprising of many such cool open source softwares. It is one of the most popular distributions of Linux  with several passionate developers around the globe steering the wheel behind.
+                        </p>
+                        <p style="text-align: justify;">
+                            DebUtsav is an awesome opportunity for any student who is passionate to experience the magic of open source. Here you can meet the veterans in open source software development, develop professional connections which , for sure, will help you a great deal in future, chat with student contributors who can guide you , present in front of a grand audience (wow!) and most importantly grasp the essence of open source development. It is indeed a ‘never miss’ opportunity that will give you a strong foundation to build on!
+
+                        </p>
+                        <p class="btn-row">
+                            <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner"><strong>Join Us !</strong></span>
+                            <br>
+                            <a href="#" class="btn btn-theme btn-theme-xl scroll-to" data-animation="flipInY" data-animation-delay="200">Delegate</a>
+                            <a href="#" class="btn btn-theme btn-theme-xl scroll-to" data-animation="flipInY" data-animation-delay="200">Speaker</a>
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
+
+                        <!-- Tweets -->
+                        <div class="row thumbnails">
+                            <div class="col-lg-12">
+                                <a  class="twitter-timeline" href="https://twitter.com/hashtag/DebUtsav14" data-widget-id="517281925413609473">
+                                </strong>>#DebUtsav14 Tweets</a>
+                                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                            </div>
+                        <!-- /Tweets -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /PAGE ABOUT -->
+
+        <!-- Donation -->
+       
+        <!-- /Donation -->
+
+        <!-- PAGE SCHEDULE -->
+        <section class="page-section light" id="schedule">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 pull-left">
+                        <h1 class="section-title">
+                            <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-star fa-stack-1x"></i></span></span>
+                            <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Event Schedule</span>
+                        </h1>
+                    </div>
+                    <div class="col-md-4 text-right-md pull-right">
+                        <a href="images/deb_schedule.pdf" class="btn btn-theme btn-theme-lg btn-theme-transparent-grey pull-right"
+                           data-animation="flipInY" data-animation-delay="300"><i class="fa fa-print"></i> Download Schedule</a>
+                    </div>
+                </div>
+                    <h2 style="text-align: center; color: #000000;">DAY 1 17/10/2014 </h2>
+                <br>
+                <table class="bordered">
+                    <thead>
+                    <tr>
+                        <th >Time</th>
+                        <th >Amriteshwari Hall</th>
+                        <th> Ground Floor Lab</th>
+                        <th >CAD Lab</th>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td >Starts 7:30 - 9:30</td>
+                        <td ><i>Registration</i></td>
+                        <td ></td>
+                        <td ></td>
+                    </tr>
+                    <tr>
+                        <td >09:30 &ndash; 10:00</td>
+                        <td >Inauguration of Debutsav'14&nbsp;and&nbsp;Launch of FOSS@Amrita website</td>
+                        <td ></td>
+                        <td ></td>
+                    </tr>
+                    <tr>
+                        <td class="border-right">10:00 &ndash; 11:00</td>
+                        <td>Keynote Session<br/>Importance of Free and Open Source Software<br/>- Krishnakant Mane, Digital Freedom Foundation</td>
+                        <td></td>
+                        <td ></td>
+                    </tr>
+                    <tr>
+                        <td >11:00 &ndash; 11:15</td>
+                        <td ><i>Tea Break</i></td>
+                        <td ></td>
+                        <td ></td>
+                    </tr>
+                    <tr>
+                        <td class="border-right">11:15 &ndash; 12:00</td>
+                        <td>Debian History and Debian Cycle&nbsp;- Shirish Agarwal, Debian India</td>
+                        <td></td>
+                        <td ></td>
+                    </tr>
+                    <tr>
+                        <td class="border-right">12:00 &ndash; 13:00</td>
+                        <td>Contributing to Debian&nbsp;- Praveen A, Debian India</td>
+                        <td></td>
+                        <td ></td>
+                    </tr>
+                    <tr>
+                        <td >13:00 &ndash; 14:00</td>
+                        <td ><i>Lunch</i></td>
+                        <td ></td>
+                        <td ></td>
+                    </tr>
+                    <tr>
+                        <td class="border-right">14:00 &ndash; 14:30</td>
+                        <td ></td>
+                        <td>Debian Packaging&nbsp;- Praveen A</td>
+                        <td>Latex for Professionals<br/>- Dr. Sajeev</td>
+                    </tr>
+                    <tr>
+                        <td class="border-right">14:30 &ndash; 15:00</td>
+                        <td ></td>
+                        <td>Debian Packaging&nbsp;- Praveen A</td>
+                        <td>Latex for Professionals<br/>- Dr. Sajeev</td>
+                    </tr>
+                    <tr>
+                        <td class="border-right">15:00 &ndash; 15:30</td>
+                        <td ></td>
+                        <td>Debian Packaging&nbsp;- Praveen A</td>
+                        <td>Latex for Professionals<br/>- Dr. Sajeev</td>
+                    </tr>
+                    <tr>
+                        <td class="border-right">15:45 &ndash; 16:30</td>
+                        <td ></td>
+                        <td>Debian Packaging&nbsp;- Praveen A</td>
+                        <td>Latex for Professionals<br/>- Dr. Sajeev</td>
+                    </tr>
+                    <tr>
+                        <td class="border-right">16:30 - 17:00</td>
+                        <td><i>Tea Break</i></td>
+                        <td ></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="border-right">17:00 &ndash; 17:30</td>
+                        <td ></td>
+                        <td>Debian Packaging&nbsp;- Praveen A</td>
+                        <td>Getting a taste of Web Framework<br/>-Avani Lodaya</td>
+                    </tr>
+                    <tr>
+                        <td class="border-right">17:30 &ndash; 18:00</td>
+                        <td ></td>
+                        <td>Debian Packaging&nbsp;- Praveen A</td>
+                        <td>Python Unit testing<br/>- Abhishek Singh</td>
+                    </tr>
+                    <tr>
+                        <td class="border-right">18:00 - 18:30</td>
+                        <td ></td>
+                        <td>Debian Packaging&nbsp;- Praveen A</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="border-right">18:30 &ndash; 19:30</td>
+                        <td ></td>
+                        <td>Debian Packaging&nbsp;- Praveen A</td>
+                        <td>Contributing to Linux Kernel and introducing Coccinelle - Tina J</td>
+                    </tr>
+                    <tr>
+                        <td class="border-right">19:30 - 20:30</td>
+                        <td><i>Dinner</i></td>
+                        <td ></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td >20:30 - 21:30</td>
+                        <td ></td>
+                        <td >Web of Trust&nbsp;- Praveen A, Shirish Agarwal</td>
+                        <td ></td>
+                    </tr>
+                    <tr>
+                        <td >21:30 - 23:00</td>
+                        <td ></td>
+                        <td>Hackathon&nbsp;Setting up Diaspora pods&nbsp;- Praveen A</td>
+                        <td></td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <br>
+                <h2 style="text-align: center; color: #000000;">DAY 2 - 18/10/2014 </h2>
+                <br>
+
+                <table class="bordered">
+                    <thead>
+                    <tr>
+                        <th >Time</td>
+                        <th >Amriteshwari&nbsp;Hall</th>
+                        <th >Ground&nbsp;Floor&nbsp;Lab</th>
+                        <th >First&nbsp;Floor&nbsp;Lab</th>
+                        <th >CAD&nbsp;Lab</th>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>9:00 &ndash; 9:45</td>
+                        <td>BOSS Gnu/Linux , Migration of Active Directory to Linux,<br/>General Linux security - Gokul Swaminathan ( CDAC )</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td >9:45 &ndash; 10:30</td>
+                        <td >Getting Handy with SailJS<br/>- Pranav Raj(Trivandrum, MaangaLabs)</td>
+                        <td ></td>
+                        <td ></td>
+                        <td ></td>
+                    </tr>
+                    <tr>
+                        <td>10:30 &ndash; 10:45</td>
+                        <td><i>Tea Break</i></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>10:45 - 11:30</td>
+                        <td>Change the Rules<br/>- Ishaan Masdekar</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:30 - 12:15</td>
+                        <td>Localization in Free Software<br/>- Balasankar C, SMC</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>12:15 &ndash; 13:00</td>
+                        <td><i>Lunch</i></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>13:00 &ndash; 13:30</td>
+                        <td></td>
+                        <td>Debian Packaging&nbsp;- Praveen A</td>
+                        <td>GNU Khata and Orca<br/>- Krishnakant Mane, Dr. Kelkar</td>
+                        <td>Priyanka Nag - IRC in the age of social media</td>
+                    </tr>
+                    <tr>
+                        <td>13:30 &ndash; 14:00</td>
+                        <td></td>
+                        <td>Debian Packaging&nbsp;- Praveen A</td>
+                        <td>GNU Khata and Orca<br/>- Krishnakant Mane, Dr. Kelkar</td>
+                        <td>Mozilla Webmaker Event<br/>- Archana KC, A. Anup</td>
+                    </tr>
+                    <tr>
+                        <td>14:00 - 14:30</td>
+                        <td></td>
+                        <td>Debian Packaging&nbsp;- Praveen A</td>
+                        <td>GNU Khata and Orca<br/>- Krishnakant Mane, Dr. Kelkar</td>
+                        <td>Mozilla Webmaker Event<br/>- Archana KC, A. Anup</td>
+                    </tr>
+                    <tr>
+                        <td>14:30 - 15:00</td>
+                        <td></td>
+                        <td>Debian Packaging&nbsp;- Praveen A</td>
+                        <td>GNU Khata and Orca<br/>- Krishnakant Mane, Dr. Kelkar</td>
+                        <td>Mozilla Webmaker Event<br/>- Archana KC, A. Anup</td>
+                    </tr>
+                    <tr>
+                        <td>15:00 - 15:30</td>
+                        <td></td>
+                        <td>Debian Packaging&nbsp;- Praveen A</td>
+                        <td>GNU Khata and Orca<br/>- Krishnakant Mane, Dr. Kelkar</td>
+                        <td>GNU Khata and Orca<br/>- Krishnakant Mane, Dr. Kelkar</td>
+                    </tr>
+                    <tr>
+                        <td>15:30 - 16:00</td>
+                        <td></td>
+                        <td>Debian Packaging&nbsp;- Praveen A</td>
+                        <td>GNU Khata and Orca<br/>- Krishnakant Mane, Dr. Kelkar</td>
+                        <td>GNU Khata and Orca<br/>- Krishnakant Mane, Dr. Kelkar</td>
+                    </tr>
+                    <tr>
+                        <td >16:00 - 16:30</td>
+                        <td ></td>
+                        <td >Debian Packaging&nbsp;- Praveen A</td>
+                        <td >GNU Khata and Orca<br/>- Krishnakant Mane, Dr. Kelkar</td>
+                        <td >GNU Khata and Orca<br/>- Krishnakant Mane, Dr. Kelkar</td>
+                    </tr>
+                    <tr>
+                        <td>16:30 - 16:45 </td>
+                        <td><i>Tea Break</i></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>16:45 - 17:30</td>
+                        <td></td>
+                        <td>Debian Packaging&nbsp;- Praveen A</td>
+                        <td>GNU Khata and Orca<br/>- Krishnakant Mane, Dr. Kelkar</td>
+                        <td>GNU Khata and Orca<br/>- Krishnakant Mane, Dr. Kelkar</td>
+                    </tr>
+                    <tr>
+                        <td >17:30 - 18:30</td>
+                        <td ></td>
+                        <td >Making of "debutsav.in"<br/>- Tony Thomas, FOSS@AMRITA</td>
+                        <td >Contributing to Fedora<br/>- Sarup Banskota</td>
+                        <td ></td>
+                    </tr>
+                    <tr>
+                        <td>18:30 - 19:30</td>
+                        <td></td>
+                        <td>My GSoC Experience<br/>- Bithin Alangot, Crisis Communicator</td>
+                        <td>Contributing to Fedora<br/>- Sarup Banskota</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>19:30 &ndash; 20:30</td>
+                        <td><i>Dinner</i></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>20:30 - 21:00</td>
+                        <td>Closing ceremony&nbsp;&amp;&nbsp;Vote of thanks</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>21:00 &ndash; 23:00</td>
+                        <td>Hackathon&nbsp;Setting up diaspora pods<br/>- Praveen A</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+
+
+
+            </div>
+        </section>
+        <!-- /PAGE SCHEDULE -->
+
+        <!-- PAGE SPONSORS -->
+        <section class="page-section" id="sponsors">
+            <div class="container">
+                <h1 class="section-title">
+                    <span data-animation="flipInY" data-animation-delay="100" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-thumbs-up fa-stack-1x"></i></span></span>
+                    <span data-animation="fadeInRight" data-animation-delay="100" class="title-inner">Event Sponsors</span>
+                </h1>
+                <div class="partners-carousel" data-animation="fadeInUp" data-animation-delay="300">
+                    <center>
+                    <div class="owl-carousel">
+                        <div><a href="http://www.digitalfreedomfoundation.org/" target="_blank" style="height: 150px;"><img src="images/dff.png"alt="Digital Freedom Foundation"/></a><strong>Digital Freedom Foundation</strong></div>
+                        <div><a href="http://fci.wikia.com/wiki/Debian" style="height: 150px;" target="_blank"><img src="images/deb.png" alt="Debian India"/></a><strong>Debian Community</strong></div>
+                        <div><a href="http://thenewstack.io/" target="_blank" style="height: 150px;"><img src="images/stack.png" alt="The New Stack"/></a><strong>The New Stack</strong><p>Media Partners</p></div>
+                        <div><a href="http://www.bosslinux.in/" target="_blank" style="height: 150px;"><img src="images/boss.jpg" alt="Boss Operating System"/></a><strong>Boss Operating System</strong></div>
+                        <div><a href="http://www.cdac.in/" target="_blank" style="height: 150px;"><img src="images/cdac.jpeg" alt="C-Dac"/></a><strong>C-Dac</strong></div>
+                        <div><a href="http://nixi.in/en/" target="_blank" style="height: 150px;"><img src="images/nixi.jpeg" alt="NIXI"/></a><strong>NIXI</strong></div>
+                        <div><a href="http://icfoss.in/" target="_blank" style="height: 150px;"><img src="images/icfoss.jpg" alt="ICFOSS"/></a><strong>ICFOSS</strong></div>
+                        <div><a href="http://securethelock.com" target="_blank" style="height: 150px;"><img src="images/securelock.png" alt="Secure The lock"/></a><strong>Secure The Lock</strong><p>Media Partners</p></div>
+                    </div>
+                    </center>
+                </div>
+                <div class="text-center margin-top">
+                    <a data-animation="flipInY" data-animation-delay="500" href="mail:fossatamrita@gmail.com" class="btn btn-theme"><i class="fa fa-thumbs-up"></i> Become a sponsor</a>
+                </div>
+            </div>
+        </section>
+        <!-- /PAGE SPONSORS -->
+
+        <section class="page-section color">
+            <div class="container">
+                <h1 class="section-title">
+                    <span data-animation="flipInY"  data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-comments fa-stack-1x"></i></span></span>
+                    <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Welcome to the Utsav!</span>
+                </h1>
+
+                <!-- Testimonials -->
+                <div id="testimonials" class="owl-carousel testimonials" data-animation="fadeInUp" data-animation-delay="100">
+
+                    <div class="media testimonial">
+                        <div class="media-object pull-right" data-animation="flipInY" data-animation-delay="300">
+                            <div class="hex testimonial-avatar">
+                                <div class="hex-deg">
+                                    <div class="hex-deg">
+                                        <div class="hex-deg">
+                                            <div class="hex-inner">
+                                                <img class="img-responsive" src="images/peng.png" alt="GNU Penguin"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <p>Utsav is a Hindi word, which means to celebrate. In India, while we celebrate without occasion, a part of our psyche is also drawn to celebrations. As we are going to use the opportunity to educate ourselves and others of the different softwares that are in Debian and elsewhere, this word seemed to be apt. Hence the word 'Debutsav'.
+                                On a slight deeper understanding level, it becomes clear that there is lot of free software which is not yet packaged in Debian for some reason or the other and we are hoping that the speakers act as a catalyst to have more interesting softwares come into Debian or if they are there and have some issues, we together might be able to solve it, or if not solve it then at least guide people to what could be the way forward.</p>
+                        </div>
+                    </div>
+
+                    <div class="media testimonial">
+                        <div class="media-object pull-right" data-animation="flipInY" data-animation-delay="300">
+                            <div class="hex testimonial-avatar">
+                                <div class="hex-deg">
+                                    <div class="hex-deg">
+                                        <div class="hex-deg">
+                                            <div class="hex-inner">
+                                                <img class="img-responsive" src="images/logo-copy3.jpg" alt="FOSS Logo"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <p>On a slight deeper understanding level, it becomes clear that there is lot of free software which is not yet packaged in Debian for some reason or the other and we are hoping that the speakers act as a catalyst to have more interesting softwares come into Debian or if they are there and have some issues, we together might be able to solve it, or if not solve it then at least guide people to what could be the way forward.</p>
+                        </div>
+                    </div>
+
+                    <div class="media testimonial">
+                        <div class="media-object pull-right" data-animation="flipInY" data-animation-delay="300">
+                            <div class="hex testimonial-avatar">
+                                <div class="hex-deg">
+                                    <div class="hex-deg">
+                                        <div class="hex-deg">
+                                            <div class="hex-inner">
+                                                <img class="img-responsive" src="images/deb_small.png" alt="Debian Logo"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <p>Through this event, it is hoped that speakers, delegates and students of host and nearby educational institutions take this grand opportunity to talk, share, learn, discuss, debate and do software development.
+                                If you are interested to help organize the Debutsav India 2014, please don't hesitate to contact us</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Testimonials -->
+
+            </div>
+        </section>
+
+        <!-- PAGE SPEAKERS -->
+        <section class="page-section light" id="speakers">
+            <div class="container">
+                <h1 class="section-title">
+                    <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-user fa-stack-1x"></i></span></span>
+                    <span data-animation="fadeInUp" data-animation-delay="500" class="title-inner">Event Speakers</span>
+                </h1>
+
+                <!-- Speakers row -->
+                <div class="row thumbnails clear">
+                    <div class="col-sm-6 col-md-3" data-animation="fadeInUp" data-animation-delay="100">
+                        <div class="thumbnail no-border no-padding text-center">
+                            <div class="hex">
+                                <div class="hex-deg">
+                                <div class="hex-deg">
+                                <div class="hex-deg">
+                                    <div class="hex-inner">
+                                        <div class="media">
+                                            <img src="assets/img/preview/kk.jpg" alt="Krishnakant Mane, Director, Digital Freedom Foundation">
+                                            <div class="caption hovered">
+                                                <div class="caption-wrapper div-table">
+                                                    <div class="caption-inner div-cell">
+                                                        <p class="caption-buttons"><a href="http://www.gnukhata.org/" class="btn caption-link"><i class="fa fa-link"></i></a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="caption before-media">
+                                <h3 class="caption-title">Krishnakant Mane</h3>
+                                <p class="caption-category">Director, Digital Freedom Foundation</p>
+                            </div>
+                            <div class="caption">
+                                <p>A software engineery by profession, expert in Python with experience in Java. Working as a IT adviser for Many government projects. lead developer of GNUKhata</p>
+                                <ul class="social-line list-inline text-center">
+                                    <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://twitter.com/kkmane" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -->
+                    <div class="col-sm-6 col-md-3" data-animation="fadeInUp" data-animation-delay="300">
+                        <div class="thumbnail no-border no-padding text-center">
+                            <div class="hex">
+                                <div class="hex-deg">
+                                    <div class="hex-deg">
+                                        <div class="hex-deg">
+                                            <div class="hex-inner">
+                                                <div class="media">
+                                                    <img src="assets/img/preview/shirishag.jpg" alt="Shirish Agrawal, Debian India">
+                                                    <div class="caption hovered">
+                                                        <div class="caption-wrapper div-table">
+                                                            <div class="caption-inner div-cell">
+                                                                <p class="caption-buttons"><a href="https://wiki.debian.org/ShirishAgarwal" class="btn caption-link"><i class="fa fa-link"></i></a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="caption before-media">
+                                <h3 class="caption-title">Shirish Agrawal</h3>
+                                <p class="caption-category">Debian India</p>
+                            </div>
+                            <div class="caption">
+                                <p>Software Professional having substantial experience of working with Free Software specifically Debian-based Distros.Give advocacy and Basic FOSS Trainings. Particularly interested to network and Work with FOSS-based businesses and individuals. Also enjoy debating over various copyleft licenses.
+                                </p>
+                                <ul class="social-line list-inline text-center">
+                                    <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -->
+                    <div class="col-sm-6 col-md-3" data-animation="fadeInUp" data-animation-delay="500">
+                        <div class="thumbnail no-border no-padding text-center">
+                            <div class="hex">
+                                <div class="hex-deg">
+                                    <div class="hex-deg">
+                                        <div class="hex-deg">
+                                            <div class="hex-inner">
+                                                <div class="media">
+                                                    <img src="assets/img/preview/praveen.jpg" alt="Pirate Praveen, Debian India">
+                                                    <div class="caption hovered">
+                                                        <div class="caption-wrapper div-table">
+                                                            <div class="caption-inner div-cell">
+                                                                <p class="caption-buttons"><a href="https://wiki.debian.org/Praveen%20A" class="btn caption-link"><i class="fa fa-link"></i></a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="caption before-media">
+                                <h3 class="caption-title">Praveen A</h3>
+                                <p class="caption-category">Debian India</p>
+                            </div>
+                            <div class="caption">
+                                <p>Free Software Consultant with expertise on GNU/Linux, MySQL and HP OpenView Operations Smart Plug-In development.</p>
+                                <ul class="social-line list-inline text-center">
+                                    <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -->
+                    <div class="col-sm-6 col-md-3" data-animation="fadeInUp" data-animation-delay="700">
+                        <div class="thumbnail no-border no-padding text-center">
+                            <div class="hex">
+                                <div class="hex-deg">
+                                    <div class="hex-deg">
+                                        <div class="hex-deg">
+                                            <div class="hex-inner">
+                                                <div class="media">
+                                                    <img src="images/next.png" alt="Next could be you">
+                                                    <div class="caption hovered">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="caption before-media">
+                                <h3 class="caption-title">Next Could be You! </h3>
+                                <p class="caption-category"><a href="register.html#speaker" class="scroll-to">Register as Speaker</a></p>
+                            </div>
+                            <div class="caption">
+                                <p>An awesome guy who believe in Open Source!</p>
+                                <ul class="social-line list-inline text-center">
+                                    <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Speakers row -->
+
+                <div class="text-center margin-top">
+                    <a data-animation="fadeInUp" data-animation-delay="100" href="#" class="btn btn-theme"><i class="fa fa-user"></i> See all speakers</a>
+                </div>
+            </div>
+        </section>
+        <!-- /PAGE SPEAKERS -->
+
+        <section class="page-section image" id="register">
+            <div class="container">
+                <h1 class="section-title">
+                    <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-ticket fa-stack-1x"></i></span></span>
+                    <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Registration Finished</span>
+                </h1>
+                <form id="registration-form" name="registration-form" class="registration-form" action="#" method="post">
+                    <div class="row">
+                        <div class="col-sm-12 form-alert"></div>
+
+                        <div class="col-md-12 overflowed">
+                            <div class="text-center margin-top">
+                                <a href="#" class="btn btn-theme btn-theme-xl scroll-to" data-animation="flipInY" data-animation-delay="200">Speaker <i class="fa fa-arrow-circle-right"></i></a>
+                                <a href="#" class="btn btn-theme btn-theme-xl scroll-to" data-animation="flipInY" data-animation-delay="200">Delegate <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="page-section light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 pull-left">
+                        <h1 class="section-title">
+                            <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-question fa-stack-1x"></i></span></span>
+                            <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Event FAQS</span>
+                        </h1>
+                    </div>                 
+                </div>
+                <div class="row faq margin-top" data-animation="fadeInUp" data-animation-delay="100">
+                    <div class="col-sm-6 col-md-6 pull-left">
+                        <ul id="tabs-faq"  class="nav">
+                            <li class="active"><a href="#tab-faq1" data-toggle="tab"><i class="fa fa-angle-right"></i> <span class="faq-inner">What is the registration fee for the event ?</span></a></li>
+                            <li><a href="#tab-faq2" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">What about my accommodation ?</span></a></li>
+                            <li><a href="#tab-faq3" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">What all do I need to bring ?</span></a></li>
+                            <li><a href="#tab-faq4" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">How to get to Amritapuri?</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-6 pull-right">
+                        <div class="tab-content">
+                            <div id="tab-faq1" class="tab-pane fade in active">
+                                <div>
+                                    <p>Registration fee for DebUtsav'14 is <b>Rs 150 /- </b></p>
+                                    
+                                </div>
+                            </div>
+                            <div id="tab-faq2" class="tab-pane fade">
+                                <div>
+                                    <p>Accommodation will be provided in the college hostels and the Ashram at a cost of Rs 250 and Rs 150 respectively. You may however, choose to stay in nearby lodges.</p>             
+                                </div>
+                            </div>
+                            <div id="tab-faq3" class="tab-pane fade">
+                                <div>
+                                    <p>Please do bring:</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p><i class="fa fa-check-circle-o"></i> Id cards</p>
+                                            <p><i class="fa fa-check-circle-o"></i> Laptops (recommended)</p>
+                                            <p><i class="fa fa-check-circle-o"></i> Registration fee</p>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab-faq4" class="tab-pane fade">
+                                <div>
+                                    <p>Please refer to: <a href="http://www.amrita.edu/campus/amritapuri/reach-us">How to reach Us</a></p>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- PAGE LOCATION -->
+        <section class="page-section" id="location">
+            <div class="container full-width gmap-background">
+
+                <div class="container">
+                    <div class="on-gmap color">
+                        <h1 class="section-title">
+                            <span data-animation="flipInY" data-animation-delay="100" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-ticket fa-stack-1x"></i></span></span>
+                            <span data-animation="fadeInRight" data-animation-delay="100" class="title-inner">Event Location</span>
+                        </h1>
+                        <p data-animation="fadeInUp" data-animation-delay="200" class="text-uppercase">Amrita Vishwa Vidhyapeetham‎ <br/>
+                            Amritapuri, Kollam<br/>
+                            Kerala, India - 690525 <br/>
+                            +91 91 476 2801280</p>
+                        <p><a href="mailto:fossatamrita@gmail.com">fossatamrita@gmail.com</a></p>
+                        <a href="http://www.amrita.edu/campus/amritapuri/reach-us" target="_blank" class="btn btn-theme"
+                           data-animation="flipInY" data-animation-delay="300">Get Directions <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- OpenStreet map -->
+                <div id="map" class="google-map"></div> 
+                <!-- /OpenStreet map -->
+
+            </div>
+        </section>
+        <!-- /PAGE LOCATION -->
+
+        <!-- PAGE CONTACT -->
+        <section class="page-section color" id="contact">
+            <div class="container">
+
+                <h1 class="section-title">
+                    <span data-animation="flipInY" data-animation-delay="100" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-ticket fa-stack-1x"></i></span></span>
+                    <span data-animation="fadeInRight" data-animation-delay="100" class="title-inner">Contact Us </span>
+                </h1>
+
+                <!-- Contact form -->
+                <form name="af-form" method="post" action="assets/php/contact-form.php" class="af-form row" id="af-form">
+
+                    <div class="col-sm-12 af-outer af-required">
+                        <div class="form-group af-inner">
+                            <input
+                                    type="text" name="name" id="name" placeholder="Type Your Name..." value="" size="30"
+                                    data-toggle="tooltip" title="Name is required"
+                                    class="form-control placeholder"/>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 af-outer af-required">
+                        <div class="form-group af-inner">
+                            <input
+                                    type="text" name="email" id="email" placeholder="Type Your Email..." value="" size="30"
+                                    data-toggle="tooltip" title="Email is required"
+                                    class="form-control placeholder"/>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 af-outer af-required">
+                        <div class="form-group af-inner">
+                            <textarea
+                                    name="message" id="input-message" placeholder="Type Your Message..." rows="4" cols="50"
+                                    data-toggle="tooltip" title="Message is required"
+                                    class="form-control placeholder"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 af-outer af-required text-center">
+                        <div class="form-group af-inner">
+                            <input type="submit" name="submit" class="form-button form-button-submit btn btn-theme btn-theme-lg btn-theme-transparent" id="submit_btn" value="Send message" />
+                        </div>
+                    </div>
+
+                </form>
+                <!-- /Contact form -->
+
+            </div>
+        </section>
+        <!-- /PAGE CONTACT -->
+
+    </div>
+    <!-- /Content area -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-meta">
+            <div class="container text-center">
+                <div class="clearfix">
+                    <ul class="social-line list-inline">
+                        <li data-animation="flipInY" data-animation-delay="100"><a href="https://twitter.com/DebUtsav14" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                        <!--<li data-animation="flipInY" data-animation-delay="200"><a href="#" class="dribbble"><i class="fa fa-dribbble"></i></a></li>-->
+                        <li data-animation="flipInY" data-animation-delay="300"><a href="https://www.facebook.com/minidebconfin14" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li data-animation="flipInY" data-animation-delay="400"><a href="https://groups.google.com/forum/#!forum/amritapuri-foss" target="_blank" class="google"><i class="fa fa-google-plus"></i></a></li>
+                        <!--<li data-animation="flipInY" data-animation-delay="500"><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li data-animation="flipInY" data-animation-delay="600"><a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
+                        <li data-animation="flipInY" data-animation-delay="700"><a href="#" class="skype"><i class="fa fa-skype"></i></a></li>-->
+                    </ul>
+                </div>
+                <span class="copyright" data-animation="fadeInUp" data-animation-delay="100">&copy; Debutsav '14 &#8212; Website designed by <a href="http://amritafoss.in"> FOSS@amrita</a></span>
+            </div>
+        </div>
+    </footer>
+    <!-- /FOOTER -->
+
+    <div class="to-top"><i class="fa fa-angle-up"></i></div>
+
+</div>
+<!-- /Wrap all content -->
+
+<!-- JS Global -->
+
+<!--[if lt IE 9]><script src="assets/plugins/jquery/jquery-1.11.1.min.js"></script><![endif]-->
+<!--[if gte IE 9]><!--><script src="assets/plugins/jquery/jquery-2.1.1.min.js"></script><!--<![endif]-->
+<script src="assets/plugins/modernizr.custom.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/plugins/bootstrap-select/bootstrap-select.min.js"></script>
+<script src="assets/plugins/superfish/js/superfish.js"></script>
+<script src="assets/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+<script src="assets/plugins/placeholdem.min.js"></script>
+<script src="assets/plugins/jquery.smoothscroll.min.js"></script>
+<script src="assets/plugins/jquery.easing.min.js"></script>
+
+<!-- JS Page Level -->
+<script src="assets/plugins/owlcarousel2/owl.carousel.min.js"></script>
+<script src="assets/plugins/waypoints/waypoints.min.js"></script>
+<script src="assets/plugins/countdown/jquery.plugin.min.js"></script>
+<script src="assets/plugins/countdown/jquery.countdown.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+
+<script src="assets/js/theme-ajax-mail.js"></script>
+<script src="assets/js/theme.js"></script>
+<script src="assets/js/custom.js"></script>
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<!--script src="assets/plugins/jquery.cookie.js"></script>
+<script src="assets/js/theme-config.js"></script-->
+<!--<![endif]-->
+
+
+<script type="text/javascript">
+
+    jQuery(document).ready(function () {
+        theme.init();
+        theme.initMainSlider();
+        theme.initCountDown();
+        theme.initPartnerSlider();
+        theme.initTestimonials();
+        theme.initGoogleMap();
+    });
+    jQuery(window).load(function () {
+        theme.initAnimation();
+    });
+
+    jQuery(window).load(function () { jQuery('body').scrollspy({offset: 100, target: '.navigation'}); });
+    jQuery(window).load(function () { jQuery('body').scrollspy('refresh'); });
+    jQuery(window).resize(function () { jQuery('body').scrollspy('refresh'); });
+
+    jQuery(document).ready(function () { theme.onResize(); });
+    jQuery(window).load(function(){ theme.onResize(); });
+    jQuery(window).resize(function(){ theme.onResize(); });
+
+    jQuery(window).load(function() {
+        if (location.hash != '') {
+            var hash = '#' + window.location.hash.substr(1);
+            if (hash.length) {
+                jQuery('html,body').delay(0).animate({
+                    scrollTop: jQuery(hash).offset().top - 44 + 'px'
+                }, {
+                    duration: 1200,
+                    easing: "easeInOutExpo"
+                });
+            }
+        }
+    });
+
+</script>
+<script>window.scrollback = {room:"debutsav",form:"toast",theme:"dark",minimize:true};(function(d,s,h,e){e=d.createElement(s);e.async=1;e.src=(location.protocol === "https:" ? "https:" : "http:") + "//scrollback.io/client.min.js";d.getElementsByTagName(s)[0].parentNode.appendChild(e);}(document,"script"));</script>
+</body>
+</html>
