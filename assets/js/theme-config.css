@@ -1,0 +1,146 @@
+.theme-config {
+    position: fixed;
+    z-index: 999999;
+    top: 80px;
+    right: -200px;
+    width: 200px;
+    background: #34363d;
+    border-radius: 0 0 0 4px;
+}
+.theme-config .theme-config-wrap {
+	padding: 0 10px 0 10px;
+}
+.theme-config .theme-config-head {
+    margin: 0;
+    padding: 0 0 0 10px;
+    font-size: 15px;
+    line-height: 40px;
+    color: #ffffff;
+    border-bottom: 1px solid #434751;
+}
+.theme-config .theme-config-head a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -40px;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 4px 0 0 4px;
+    background-color: #34363d;
+    color: #ffffff;
+}
+.theme-config .theme-config-head a i {
+	margin-left: 3px;
+    line-height: 40px;
+    color: #ffffff;
+}
+.theme-config .theme-config-title {
+	margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 40px;
+    color: #999999;
+}
+.theme-config .options {
+    list-style: none;
+}
+.theme-config .options li {}
+.theme-config .options li a {
+    cursor: pointer;
+    font-size: 12px;
+}
+.theme-config .options.colors {
+    padding-top: 1px;
+    margin: -1px 0 -5px -5px;
+    overflow: hidden;
+}
+.theme-config .options.colors li {
+    float: left;
+    width: 41px;
+    height: 41px;
+    margin: 0 0 5px 5px;
+    text-align: center;
+}
+.theme-config .options.colors li a {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    height: 40px;
+    font-size: 10px;
+    color: #ffffff;
+    /*hide the text*/
+    text-indent: 9999px;
+    white-space: nowrap;
+    overflow: hidden;
+    word-wrap: normal;
+}
+.theme-config .options.colors li a:hover {
+    -webkit-box-shadow: 0 0 0 1px #ffffff;
+    box-shadow: 0 0 0 1px #ffffff;
+}
+.theme-config .options.background-colors {
+    margin: 0 0 0 -5px;
+    overflow: hidden;
+}
+.theme-config .options.background-colors li {
+    float: left;
+    margin: 0 0 10px 5px;
+    width: 87px;
+}
+.theme-config .options.background-colors li a {
+    cursor: pointer;
+    display: block;
+    height: 41px;
+    line-height: 41px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.theme-config .options.background-colors li a:focus,
+.theme-config .options.background-colors li a:hover {
+    color: #6d7a83;
+}
+
+.theme-config .options.layouts,
+.theme-config .options.directions {
+    margin: 0 0 0 -5px;
+    overflow: hidden;
+}
+.theme-config .options.layouts li,
+.theme-config .options.directions li {
+    float: left;
+    margin: 0 0 10px 5px;
+    width: 87px;
+}
+.theme-config .options.layouts li a,
+.theme-config .options.directions li a {
+    cursor: pointer;
+    display: block;
+    height: 41px;
+    line-height: 41px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.theme-config .options.layouts li a:focus,
+.theme-config .options.directions li a:focus,
+.theme-config .options.layouts li a:hover,
+.theme-config .options.directions li a:hover {
+    color: #6d7a83;
+}
+
+.theme-config .options.reset-settings {margin: 0 0 10px 0;}
+.theme-config .options.reset-settings li {}
+.theme-config .options.reset-settings li a {color: #999999;}
+.theme-config .options.reset-settings li a:hover {color: #ffffff;}
+
+.theme-config-divider {
+    margin: 5px 0;
+    border-top-color: #434751;
+}
