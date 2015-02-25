@@ -215,7 +215,8 @@ var theme = function () {
         // CountDown
         initCountDown: function () {
             var austDay = new Date();
-            austDay = new Date(2014, 10 - 1, 17);
+//          austDay = new Date(2014, 10 - 1, 17);
+			austDay = new Date(2015, 4 - 1, 17);
             $('#defaultCountdown').countdown({until: austDay});
             $('#year').text(austDay.getFullYear());
         },
