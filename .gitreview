@@ -1,0 +1,7 @@
+[gerrit]
+host=review.gerrithub.io
+port=29418
+project=amfoss/kdeconf.git
+defaultbranch=gh-pages
+defaultrebase=0
+
