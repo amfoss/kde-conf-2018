@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b662433-4aee-4f92-aec3-229c9a2e9752" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/1.jpg" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/2.jpg" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/3.jpg" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/4.jpg" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/5.jpg" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/6.jpg" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/fontawesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/assets/plugins/fontawesome/fonts/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/about-lg-1.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/about-lg-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/about-lg-2.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/about-lg-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/about-lg-3.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/about-lg-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/about-lg-4.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/about-lg-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/about-sm-1.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/about-sm-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/about-sm-2.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/about-sm-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/about-sm-3.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/about-sm-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/about-sm-4.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/about-sm-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/owlcarousel2/assets/ajax-loader.gif" afterPath="$PROJECT_DIR$/assets/plugins/owlcarousel2/assets/ajax-loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ico/apple-touch-icon-144-precomposed.png" afterPath="$PROJECT_DIR$/assets/ico/apple-touch-icon-144-precomposed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/avatar-1.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/avatar-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/avatar-2.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/avatar-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/avatar-3.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/avatar-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/avatar-4.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/avatar-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/avatar-v2-1.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/avatar-v2-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/avatar-v2-2.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/avatar-v2-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/avatar-v2-3.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/avatar-v2-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/avatar-v2-4.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/avatar-v2-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/background-img-slider.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/background-img-slider.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/bash.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/bash.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/blog-post-1.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/blog-post-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/blog-post-2.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/blog-post-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/blog-post-3.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/blog-post-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_rounded/btnNext.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_rounded/btnNext.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_square/btnNext.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_square/btnNext.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/btnNext.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/btnNext.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_rounded/btnNext.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_rounded/btnNext.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_square/btnNext.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_square/btnNext.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_rounded/btnPrevious.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_rounded/btnPrevious.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_square/btnPrevious.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_square/btnPrevious.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/btnPrevious.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/btnPrevious.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_rounded/btnPrevious.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_rounded/btnPrevious.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_square/btnPrevious.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_square/btnPrevious.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_rounded/contentPattern.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_rounded/contentPattern.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_square/contentPattern.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_square/contentPattern.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/contentPatternBottom.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/contentPatternBottom.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/contentPatternLeft.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/contentPatternLeft.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/contentPatternRight.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/contentPatternRight.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/contentPatternTop.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/contentPatternTop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/default/default_thumb.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/default/default_thumb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_rounded/default_thumbnail.gif" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_rounded/default_thumbnail.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_square/default_thumbnail.gif" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_square/default_thumbnail.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/default_thumbnail.gif" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/default_thumbnail.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_rounded/default_thumbnail.gif" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_rounded/default_thumbnail.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_square/default_thumbnail.gif" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_square/default_thumbnail.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ico/favicon.ico" afterPath="$PROJECT_DIR$/assets/ico/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ico/favicon_deb.png" afterPath="$PROJECT_DIR$/assets/ico/favicon_deb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/thumbnails/flash-logo.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/thumbnails/flash-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/flickr-feed.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/flickr-feed.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/fontawesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/assets/plugins/fontawesome/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/fontawesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/assets/plugins/fontawesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/fontawesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/assets/plugins/fontawesome/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/high.gif" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/high.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/huge.gif" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/huge.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/kk-sched.jgp" afterPath="$PROJECT_DIR$/assets/img/preview/kk-sched.jgp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/kk-sched.jpeg" afterPath="$PROJECT_DIR$/assets/img/preview/kk-sched.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/kk.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/kk.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_rounded/loader.gif" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_rounded/loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_square/loader.gif" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_square/loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/default/loader.gif" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/default/loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/loader.gif" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_rounded/loader.gif" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_rounded/loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_square/loader.gif" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_square/loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/overlay-media-alt.png" afterPath="$PROJECT_DIR$/assets/img/overlay-media-alt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/overlay-media.png" afterPath="$PROJECT_DIR$/assets/img/overlay-media.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/overlay.png" afterPath="$PROJECT_DIR$/assets/img/overlay.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/owlcarousel2/assets/owl.video.play.png" afterPath="$PROJECT_DIR$/assets/plugins/owlcarousel2/assets/owl.video.play.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/partner-1.png" afterPath="$PROJECT_DIR$/assets/img/partner/partner-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/dark/partner-1.png" afterPath="$PROJECT_DIR$/assets/img/partner/dark/partner-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/light/partner-1.png" afterPath="$PROJECT_DIR$/assets/img/partner/light/partner-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/partner-2.png" afterPath="$PROJECT_DIR$/assets/img/partner/partner-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/dark/partner-2.png" afterPath="$PROJECT_DIR$/assets/img/partner/dark/partner-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/light/partner-2.png" afterPath="$PROJECT_DIR$/assets/img/partner/light/partner-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/partner-3.png" afterPath="$PROJECT_DIR$/assets/img/partner/partner-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/dark/partner-3.png" afterPath="$PROJECT_DIR$/assets/img/partner/dark/partner-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/light/partner-3.png" afterPath="$PROJECT_DIR$/assets/img/partner/light/partner-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/partner-4.png" afterPath="$PROJECT_DIR$/assets/img/partner/partner-4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/dark/partner-4.png" afterPath="$PROJECT_DIR$/assets/img/partner/dark/partner-4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/light/partner-4.png" afterPath="$PROJECT_DIR$/assets/img/partner/light/partner-4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/partner-5.png" afterPath="$PROJECT_DIR$/assets/img/partner/partner-5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/dark/partner-5.png" afterPath="$PROJECT_DIR$/assets/img/partner/dark/partner-5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/light/partner-5.png" afterPath="$PROJECT_DIR$/assets/img/partner/light/partner-5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/partner-6.png" afterPath="$PROJECT_DIR$/assets/img/partner/partner-6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/dark/partner-6.png" afterPath="$PROJECT_DIR$/assets/img/partner/dark/partner-6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/partner/light/partner-6.png" afterPath="$PROJECT_DIR$/assets/img/partner/light/partner-6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/praveen-sched.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/praveen-sched.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/praveen.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/praveen.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preloader.gif" afterPath="$PROJECT_DIR$/assets/img/preloader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview.png" afterPath="$PROJECT_DIR$/assets/img/preview.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/thumbnails/quicktime-logo.gif" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/thumbnails/quicktime-logo.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/recent-post-1.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/recent-post-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/recent-post-2.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/recent-post-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/recent-post-3.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/recent-post-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sethu.jpg" afterPath="$PROJECT_DIR$/images/sethu.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/shirishag-sched.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/shirishag-sched.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/shirishag.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/shirishag.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/speaker-1.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/speaker-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/speaker-2.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/speaker-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/speaker-3.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/speaker-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/preview/speaker-4.jpg" afterPath="$PROJECT_DIR$/assets/img/preview/speaker-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_rounded/sprite.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_rounded/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_square/sprite.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/dark_square/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/default/sprite.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/default/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/sprite.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/facebook/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_rounded/sprite.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_rounded/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_square/sprite.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/light_square/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/default/sprite_next.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/default/sprite_next.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/default/sprite_prev.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/default/sprite_prev.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/default/sprite_x.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/default/sprite_x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/default/sprite_y.png" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/prettyPhoto/default/sprite_y.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/thumbnails/t_1.jpg" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/thumbnails/t_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/thumbnails/t_2.jpg" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/thumbnails/t_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/thumbnails/t_3.jpg" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/thumbnails/t_3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/thumbnails/t_4.jpg" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/thumbnails/t_4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/thumbnails/t_5.jpg" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/thumbnails/t_5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/wide.gif" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/images/fullscreen/wide.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/_base.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/_base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/animate.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/animate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/animate.min.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/animate.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap-select/bootstrap-select.css" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap-select/bootstrap-select.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap-select/bootstrap-select.js" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap-select/bootstrap-select.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap-select/bootstrap-select.min.css" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap-select/bootstrap-select.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap-select/bootstrap-select.min.js" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap-select/bootstrap-select.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/attention_seekers/bounce.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/attention_seekers/bounce.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_entrances/bounceIn.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_entrances/bounceIn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_entrances/bounceInDown.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_entrances/bounceInDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_entrances/bounceInLeft.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_entrances/bounceInLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_entrances/bounceInRight.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_entrances/bounceInRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_entrances/bounceInUp.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_entrances/bounceInUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_exits/bounceOut.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_exits/bounceOut.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_exits/bounceOutDown.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_exits/bounceOutDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_exits/bounceOutLeft.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_exits/bounceOutLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_exits/bounceOutRight.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_exits/bounceOutRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_exits/bounceOutUp.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/bouncing_exits/bounceOutUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/custom.css" afterPath="$PROJECT_DIR$/assets/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeIn.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeIn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeInDown.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeInDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeInDownBig.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeInDownBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeInLeft.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeInLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeInLeftBig.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeInLeftBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeInRight.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeInRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeInRightBig.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeInRightBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeInUp.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeInUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeInUpBig.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_entrances/fadeInUpBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOut.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOut.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOutDown.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOutDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOutDownBig.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOutDownBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOutLeft.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOutLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOutLeftBig.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOutLeftBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOutRight.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOutRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOutRightBig.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOutRightBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOutUp.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOutUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOutUpBig.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/fading_exits/fadeOutUpBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/attention_seekers/flash.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/attention_seekers/flash.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/flippers/flip.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/flippers/flip.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/flippers/flipInX.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/flippers/flipInX.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/flippers/flipInY.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/flippers/flipInY.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/flippers/flipOutX.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/flippers/flipOutX.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/flippers/flipOutY.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/flippers/flipOutY.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/fontawesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/assets/plugins/fontawesome/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/fontawesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/assets/plugins/fontawesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/fontawesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/assets/plugins/fontawesome/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/specials/hinge.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/specials/hinge.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/superfish/js/hoverIntent.js" afterPath="$PROJECT_DIR$/assets/plugins/superfish/js/hoverIntent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/iesupport/html5shiv.js" afterPath="$PROJECT_DIR$/assets/plugins/iesupport/html5shiv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/jquery/jquery-1.11.1.js" afterPath="$PROJECT_DIR$/assets/plugins/jquery/jquery-1.11.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/jquery/jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/assets/plugins/jquery/jquery-1.11.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/jquery/jquery-2.1.1.js" afterPath="$PROJECT_DIR$/assets/plugins/jquery/jquery-2.1.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/jquery/jquery-2.1.1.min.js" afterPath="$PROJECT_DIR$/assets/plugins/jquery/jquery-2.1.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/jquery/jquery-migrate-1.2.1.js" afterPath="$PROJECT_DIR$/assets/plugins/jquery/jquery-migrate-1.2.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/jquery/jquery-migrate-1.2.1.min.js" afterPath="$PROJECT_DIR$/assets/plugins/jquery/jquery-migrate-1.2.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/superfish/js/jquery.js" afterPath="$PROJECT_DIR$/assets/plugins/superfish/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/js/jquery.prettyPhoto.js" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/js/jquery.prettyPhoto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/lightspeed/lightSpeedIn.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/lightspeed/lightSpeedIn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/lightspeed/lightSpeedOut.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/lightspeed/lightSpeedOut.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/superfish/css/megafish.css" afterPath="$PROJECT_DIR$/assets/plugins/superfish/css/megafish.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/owlcarousel2/assets/owl.carousel.css" afterPath="$PROJECT_DIR$/assets/plugins/owlcarousel2/assets/owl.carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/owlcarousel2/owl.carousel.js" afterPath="$PROJECT_DIR$/assets/plugins/owlcarousel2/owl.carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/owlcarousel2/assets/owl.carousel.min.css" afterPath="$PROJECT_DIR$/assets/plugins/owlcarousel2/assets/owl.carousel.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/owlcarousel2/owl.carousel.min.js" afterPath="$PROJECT_DIR$/assets/plugins/owlcarousel2/owl.carousel.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/owlcarousel2/assets/owl.theme.default.css" afterPath="$PROJECT_DIR$/assets/plugins/owlcarousel2/assets/owl.theme.default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/owlcarousel2/assets/owl.theme.default.min.css" afterPath="$PROJECT_DIR$/assets/plugins/owlcarousel2/assets/owl.theme.default.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/owlcarousel2/assets/owl.theme.green.css" afterPath="$PROJECT_DIR$/assets/plugins/owlcarousel2/assets/owl.theme.green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/owlcarousel2/assets/owl.theme.green.min.css" afterPath="$PROJECT_DIR$/assets/plugins/owlcarousel2/assets/owl.theme.green.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/php/phpmailer.php" afterPath="$PROJECT_DIR$/assets/php/phpmailer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/prettyphoto/css/prettyPhoto.css" afterPath="$PROJECT_DIR$/assets/plugins/prettyphoto/css/prettyPhoto.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/attention_seekers/pulse.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/attention_seekers/pulse.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/iesupport/respond.min.js" afterPath="$PROJECT_DIR$/assets/plugins/iesupport/respond.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/specials/rollIn.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/specials/rollIn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/specials/rollOut.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/specials/rollOut.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_entrances/rotateIn.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_entrances/rotateIn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_entrances/rotateInDownLeft.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_entrances/rotateInDownLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_entrances/rotateInDownRight.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_entrances/rotateInDownRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_entrances/rotateInUpLeft.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_entrances/rotateInUpLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_entrances/rotateInUpRight.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_entrances/rotateInUpRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_exits/rotateOut.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_exits/rotateOut.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_exits/rotateOutDownLeft.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_exits/rotateOutDownLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_exits/rotateOutDownRight.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_exits/rotateOutDownRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_exits/rotateOutUpLeft.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_exits/rotateOutUpLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_exits/rotateOutUpRight.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/rotating_exits/rotateOutUpRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/attention_seekers/rubberBand.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/attention_seekers/rubberBand.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/attention_seekers/shake.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/attention_seekers/shake.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/sliders/slideInDown.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/sliders/slideInDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/sliders/slideInLeft.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/sliders/slideInLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/sliders/slideInRight.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/sliders/slideInRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/sliders/slideInUp.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/sliders/slideInUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/sliders/slideOutDown.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/sliders/slideOutDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/sliders/slideOutLeft.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/sliders/slideOutLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/sliders/slideOutRight.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/sliders/slideOutRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/sliders/slideOutUp.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/sliders/slideOutUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/superfish/css/superfish-navbar.css" afterPath="$PROJECT_DIR$/assets/plugins/superfish/css/superfish-navbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/superfish/css/superfish-vertical.css" afterPath="$PROJECT_DIR$/assets/plugins/superfish/css/superfish-vertical.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/superfish/css/superfish.css" afterPath="$PROJECT_DIR$/assets/plugins/superfish/css/superfish.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/superfish/js/superfish.js" afterPath="$PROJECT_DIR$/assets/plugins/superfish/js/superfish.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/superfish/js/superfish.min.js" afterPath="$PROJECT_DIR$/assets/plugins/superfish/js/superfish.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/superfish/js/supersubs.js" afterPath="$PROJECT_DIR$/assets/plugins/superfish/js/supersubs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/attention_seekers/swing.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/attention_seekers/swing.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/attention_seekers/tada.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/attention_seekers/tada.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme-blue-1.css" afterPath="$PROJECT_DIR$/assets/css/theme-blue-1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme-blue-2.css" afterPath="$PROJECT_DIR$/assets/css/theme-blue-2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme-cumin.css" afterPath="$PROJECT_DIR$/assets/css/theme-cumin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme-green-1.css" afterPath="$PROJECT_DIR$/assets/css/theme-green-1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme-green-2.css" afterPath="$PROJECT_DIR$/assets/css/theme-green-2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme-light.css" afterPath="$PROJECT_DIR$/assets/css/theme-light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme-orange-1.css" afterPath="$PROJECT_DIR$/assets/css/theme-orange-1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme-orange-2.css" afterPath="$PROJECT_DIR$/assets/css/theme-orange-2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme-pink.css" afterPath="$PROJECT_DIR$/assets/css/theme-pink.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme-purple-1.css" afterPath="$PROJECT_DIR$/assets/css/theme-purple-1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme-purple-2.css" afterPath="$PROJECT_DIR$/assets/css/theme-purple-2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme-red-1.css" afterPath="$PROJECT_DIR$/assets/css/theme-red-1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme-red-2.css" afterPath="$PROJECT_DIR$/assets/css/theme-red-2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme-yellow-1.css" afterPath="$PROJECT_DIR$/assets/css/theme-yellow-1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme-yellow-2.css" afterPath="$PROJECT_DIR$/assets/css/theme-yellow-2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme.css" afterPath="$PROJECT_DIR$/assets/css/theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/waypoints/waypoints.js" afterPath="$PROJECT_DIR$/assets/plugins/waypoints/waypoints.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/waypoints/waypoints.min.js" afterPath="$PROJECT_DIR$/assets/plugins/waypoints/waypoints.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/attention_seekers/wobble.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/attention_seekers/wobble.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_entrances/zoomIn.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_entrances/zoomIn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_entrances/zoomInDown.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_entrances/zoomInDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_entrances/zoomInLeft.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_entrances/zoomInLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_entrances/zoomInRight.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_entrances/zoomInRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_entrances/zoomInUp.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_entrances/zoomInUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_exits/zoomOut.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_exits/zoomOut.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_exits/zoomOutDown.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_exits/zoomOutDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_exits/zoomOutLeft.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_exits/zoomOutLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_exits/zoomOutRight.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_exits/zoomOutRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_exits/zoomOutUp.css" afterPath="$PROJECT_DIR$/assets/plugins/animate/source/zooming_exits/zoomOutUp.css" />
+    </list>
+    <ignored path="kdeconf.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="kdeconf" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="56" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.50769234" vertical-offset="225" max-vertical-offset="16530">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme-blue-1.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/theme-blue-1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="290" column="2" selection-start="5611" selection-end="5626" vertical-scroll-proportion="-7.6666665" vertical-offset="4143" max-vertical-offset="11880">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme-blue-2.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/theme-blue-2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11880">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme-green-1.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/theme-green-1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="11880">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme-orange-1.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/theme-orange-1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="11880">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme-red-1.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/theme-red-1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme-red-2.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/theme-red-2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11880">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2700">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/theme.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1212" column="22" selection-start="31249" selection-end="31249" vertical-scroll-proportion="-11.962963" vertical-offset="17857" max-vertical-offset="50550">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/assets/css/theme.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-3" />
+    <option name="y" value="-3" />
+    <option name="width" value="1372" />
+    <option name="height" value="748" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kdeconf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kdeconf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kdeconf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kdeconf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kdeconf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kdeconf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kdeconf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kdeconf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kdeconf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b662433-4aee-4f92-aec3-229c9a2e9752" name="Default" comment="" />
+      <created>1425064147827</created>
+      <updated>1425064147827</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3" y="-3" width="1372" height="748" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924962" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="40" selection-start="5636" selection-end="5636" vertical-scroll-proportion="0.0" vertical-offset="1830" max-vertical-offset="16530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/theme-green-1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/theme-orange-1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/theme-red-1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="626">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/theme-red-2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/theme-blue-2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/theme-blue-1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="290" column="2" selection-start="5611" selection-end="5626" vertical-scroll-proportion="-7.6666665" vertical-offset="4143" max-vertical-offset="11880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1212" column="22" selection-start="31249" selection-end="31249" vertical-scroll-proportion="-11.962963" vertical-offset="17857" max-vertical-offset="50550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="56" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.50769234" vertical-offset="225" max-vertical-offset="16530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
