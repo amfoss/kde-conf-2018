@@ -28,41 +28,6 @@
     <link href="assets/css/theme.css" rel="stylesheet">
 
     <link href="assets/css/theme-blue-1.css" rel="stylesheet" id="theme-config-link">
-
-
-    <script src="http://openlayers.org/api/OpenLayers.js"></script>
-    <script type="text/javascript">
-        var lat=9.093440;
-        var lon=76.48919;
-        var zoom=17;
-        var map; 
-        function init(){
-            map = new OpenLayers.Map ("map", {
-                controls:[
-                new OpenLayers.Control.Navigation(),
-                new OpenLayers.Control.PanZoomBar(),
-                new OpenLayers.Control.Attribution()],
-                maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34),
-                maxResolution: 156543.0399,
-                numZoomLevels: 19,
-                units: 'm',
-                projection: new OpenLayers.Projection("EPSG:900913"),
-                displayProjection: new OpenLayers.Projection("EPSG:4326")
-            } );
-            map.addLayer(new OpenLayers.Layer.OSM());
-            var lonLat = new OpenLayers.LonLat(lon, lat).transform(new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913"));
-            map.setCenter (lonLat, zoom);
-            //Initialise the vector layer using OpenLayers.Format.OSM
-            var layer = new OpenLayers.Layer.Vector("Polygon", {
-                strategies: [new OpenLayers.Strategy.Fixed()],
-                protocol: new OpenLayers.Protocol.HTTP({
-                    format: new OpenLayers.Format.OSM()
-                }),
-                projection: new OpenLayers.Projection("EPSG:4326")
-            });
-            map.addLayers([layer]); 
-        }
-    </script>
     
     <style>
       .map {
@@ -1042,7 +1007,11 @@
                 </div>
 
                 <!-- OpenStreet map -->
-                <div id="map" class="google-map"></div>
+                <div id="map" class="google-map">
+                    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=76.47876977920532%2C9.08987135534244%2C76.49293184280396%2C9.100878456694948&amp;layer=mapnik">
+                    </iframe>
+                    <br/><small><a href="https://www.openstreetmap.org/#map=17/9.09537/76.48585">View Larger Map</a></small>
+                </div>
                 <!-- /OpenStreet map -->
             </div>
         </section>
